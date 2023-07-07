@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+a{
+    font-style: none;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.section__container{
+    margin: 0 auto;
+    height: 100vh;
+    text-align: justify;
+    background: no-repeat url("/images/valores__img01.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+    .quienes__somos{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        background-color: rgba(245, 245, 245, 0.7);
+        height: 50%;
+        padding: 50px;
+    }
+    .section__container div div:nth-child(1){
+        margin-bottom: 20px;
+        color: white;
+        font-size: 38px;
+        text-align: center;
+        text-shadow: 5px 5px 5px black ;
+    }
+    .section__container div div:nth-child(2){
+        display: flex;
+        flex-flow: row nowrap;
+        font-size: 22px;
+        align-items: center;
+    }
+    .section__container div div:nth-child(2) img{
+        width: 220px;
+        height: 250px;
+    }
+    
+.como__somos__container{
+    background: no-repeat url("/images/valores__img02.webp");
+    background-size: cover;
+}
+
+.valores__container{
+    width: 60%;
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-top: 50px;
+}
+.valores__container img{
+    height: 200px;
+    width: 300px;
+}
+.valores__container div div{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    letter-spacing: 2px;
+}
+.valores__container div:first-child{
+    margin-bottom: 50px;
+
+}
+.valores__container div:first-child h1{
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 8px black;
+    margin-bottom: 20px;
+
+}
+.valores__container div h2{
+    text-align: center;
+    color: #D9D5C9;
+    text-shadow: 0 0 8px black;
+    font-size: 26px;
+}

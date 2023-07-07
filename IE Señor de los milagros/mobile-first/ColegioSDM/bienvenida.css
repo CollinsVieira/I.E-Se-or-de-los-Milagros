@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+body{
+    background-color: #f5f5f5;
+}
+.welcome__container{
+    padding-top: 50px;
+    height: 66vh;
+    background: #5d1e7e url(/images/bienvenida-image-02.webp) no-repeat center top;
+    background-size: cover;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+    .welcome__container h1:nth-child(1){
+        text-align: center;
+        color: white;
+        font-size: 38px;
+        margin-top: 20px;
+
+    }
+    .welcome__container p{
+        background-color: rgba(197, 193, 193,0.5);
+        margin: 0 20px 0 20px;
+        color: #590802;
+        text-align: center;
+
+    }
+    .welcome__container div:nth-child(3) h1{
+        text-align: center;
+        color: white;
+        font-size: 34px;
+        background-color: #5d1e7e;
+    }
+
+
+.message__container{
+    display: flex;
+    text-align: justify;
+    padding: 30px;
+}
+    .message__container div:nth-child(2){
+        display: none;
+    }
+    .message__container div img{
+        height: 150px;
+        width: 190px;
+        float: left;
+        margin-right: 10px;
+        }
+    .message__container div p:last-child{
+        text-align: center;
+        }
+
+@media(min-width: 768px){
+    .welcome__container p{
+        font-size: 20px;
+    }
+    .message__container div img{
+        height: 230px;
+        width: 300px;
+    }
+}
+@media(min-width: 1024px){
+    .welcome__container{
+        margin: 20px 20px 0 20px;
+        background-size: cover;
+    }
+
+    .welcome__container p{
+        font-size: 24px;
+        margin-top: 200px;
+        
+    }
+    .welcome__container div:nth-child(3) h1{
+        padding: 5px;
+    }
+
+
+    .message__container{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .message__container div{
+        width: 1200px;
+        height: 600px;  
+    }
+    .message__container div:first-child{
+        display: none;
+    }
+    .message__container div:nth-child(2){
+        display: flex;
+        align-items: center;
+    }
+    .message__container div:nth-child(2) div{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+    .message__container div img{
+        float: none;
+        height: 300px;
+        width: auto;
+        margin-right: 30px;
+    }
+    .message__container div p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}

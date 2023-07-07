@@ -1,0 +1,11 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+    .card{
+        height: 200px;
+        width: 200px;
+        background-color: lightskyblue;
+        flex: 1 0 200px;
+    }

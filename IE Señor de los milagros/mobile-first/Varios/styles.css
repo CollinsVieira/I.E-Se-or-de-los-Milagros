@@ -1,0 +1,35 @@
+/* NOTICIAS */
+
+
+.news__container{
+    margin-top: 100px;
+    padding: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 20px;
+}
+.news{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 250px;
+    width: 900px;
+    background-color: #fff ;
+    column-gap: 40px;
+    padding: 15px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+
+    }
+        .news img{
+            height: 100%;
+            width: 200px;
+        }
+        .news h3{
+            color: #222344;
+
+            font-weight: bold;
+
+        }
+        .news p{
+
+        }

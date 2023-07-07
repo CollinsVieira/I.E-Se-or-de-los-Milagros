@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+
+body{
+    background-color: whitesmoke;
+}
+    .section__1{
+        height: 50vh;
+        background: no-repeat url("/images/actividades__img01.jpg");
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-shadow: 5px 0 8px black;
+        font-size: 40px;
+
+    }
+    .section__2{
+        height: 40vh;
+        margin: 50px 50px;
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+
+    }
+        .section__2 .cards{
+            position: relative;
+            width: 450px;
+            height: 350px;
+            background-color: #000;
+            overflow: hidden;
+        }
+        .section__2 .card__img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            scale: 1.15;
+            transition: opacity 0.25s, scale 0.35s;
+        }
+        .card:hover .card__img{
+            opacity: 0.5;
+            scale: 1;
+        }
+        .section__2 .card__body{
+            position: absolute;
+            inset: 0;
+            padding: 50px;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 15px;
+            justify-content: center;
+        }
+        .section__2 .card__body::before{
+            content: '';
+            position: absolute;
+            inset: 20px;
+            border: 2px solid white;
+            opacity: 0;
+            scale: 1.25;
+            transition: opacity 0.25s, scale 0.25s;
+        }
+        .cards:hover .card__body:before{
+            opacity: 1;
+            scale: 1;
+        }
+        .card__title{
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+        }
+        .card__description{
+            font-size: 14px;
+            opacity: 0;
+            translate: -25px;
+            transition: opactity 0.25s,translate 0.25s;
+            text-shadow: 5px 5px 15px #000;
+
+        }
+        .cards:hover .card__description{
+            opacity: 1;
+            translate: 0;
+        }
+
+    .servicios{
+        background: no-repeat url("/images/servicios__img01.webp");
+        background-size: cover;
+        background-position: center;
+    }
