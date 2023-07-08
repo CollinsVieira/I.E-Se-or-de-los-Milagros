@@ -117,9 +117,6 @@ a{
     display: block;
     width: 36px;
 }
-.menu__link__inicio{
-    /* margin-left: 150px; */
-}
 
 @media (max-width:800px){
     .logo__container{
