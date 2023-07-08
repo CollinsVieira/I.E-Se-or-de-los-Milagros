@@ -15,7 +15,7 @@ body{
 
 .slogan{
     height: 60vh;
-    background: no-repeat url("/images/nivelPrimario__img01.webp");
+    background: no-repeat url("../../images/nivelPrimario__img01.webp");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -50,6 +50,6 @@ body{
     overflow: hidden;
     }
 .nivel__secundario{
-    background: no-repeat url("/images/nivelSecundario__img01.webp");
+    background: no-repeat url("../../images/nivelSecundario__img01.webp");
     background-size: cover;
 }
