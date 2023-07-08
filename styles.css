@@ -94,7 +94,7 @@ body{
 }
 .noticias__container .noticias__mensaje{
         width: 100%;
-        background-image: url("/images/campus.png");
+        background-image: url("IE Señor de los milagros/images/campus.png");
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -145,7 +145,7 @@ body{
         background-repeat: no-repeat;
         background-position: bottom 20px right ;
         background-size: 170px 170px;
-        background-image: url(/images/carusel-image-03.webp);
+        background-image: url("IE Señor de los milagros/images/carusel-image-03.webp");
     }
 
 .conocemas{
@@ -272,7 +272,7 @@ body{
             row-gap: 2px;
             column-gap: 2px;
             border-bottom: 5px solid black;
-            background: url("/images/t.webp") no-repeat 10px 240px;
+            background: url("IE Señor de los milagros/images/t.webp") no-repeat 10px 240px;
             background-size: 140px 70px;
             margin-top: 70px;
 
