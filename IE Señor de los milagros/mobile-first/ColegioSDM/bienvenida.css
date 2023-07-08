@@ -11,7 +11,7 @@ body{
 .welcome__container{
     padding-top: 50px;
     height: 66vh;
-    background: #5d1e7e url(/images/bienvenida-image-02.webp) no-repeat center top;
+    background: #5d1e7e url(../../images/bienvenida-image-02.webp) no-repeat center top;
     background-size: cover;
     display: flex;
     flex-flow: column wrap;
