@@ -63,7 +63,6 @@ nextBtn.addEventListener('click', () => {
           });
       });
   }
-
   const deleteStyleHeight = ()=>{
       listElements.forEach(element=>{
 
@@ -74,8 +73,6 @@ nextBtn.addEventListener('click', () => {
 
       });
   }
-
-
   window.addEventListener('resize', ()=>{
       if(window.innerWidth > 800){
           deleteStyleHeight();
@@ -86,13 +83,8 @@ nextBtn.addEventListener('click', () => {
           addClick();
       }
   });
-
   if(window.innerWidth <= 800){
       addClick();
   }
-
   menu.addEventListener('click', ()=> list.classList.toggle('menu__links--show'));
-
-
-
 })();
