@@ -27,7 +27,6 @@
           });
       });
   }
-
   const deleteStyleHeight = ()=>{
       listElements.forEach(element=>{
 
@@ -38,8 +37,6 @@
 
       });
   }
-
-
   window.addEventListener('resize', ()=>{
       if(window.innerWidth > 800){
           deleteStyleHeight();
@@ -50,13 +47,8 @@
           addClick();
       }
   });
-
   if(window.innerWidth <= 800){
       addClick();
   }
-
   menu.addEventListener('click', ()=> list.classList.toggle('menu__links--show'));
-
-
-
 })();
