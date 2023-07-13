@@ -14,7 +14,7 @@ a{
 .logo__container{
     display: flex;
     align-items: center;
-    font-family: 'Oleo Script', cursive;
+    font-family: 'Oleo Script';
     display: none;
     gap: 20px;
 }

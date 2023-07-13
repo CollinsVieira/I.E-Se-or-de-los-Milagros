@@ -2,8 +2,8 @@
 
 
 .news__container{
-    padding-top: 100px;
     padding: 50px;
+    padding-top: 100px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -24,7 +24,7 @@
     }
         .news img{
             height: 100%;
-            width: 300px;
+            max-width: 300px;
             border-radius: 15px;
         }
         .news div h3{

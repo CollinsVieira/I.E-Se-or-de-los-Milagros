@@ -1,0 +1,117 @@
+/* SOBRE NOSOTROS */
+
+
+.aboutus__container{
+    padding-top: 150px;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: no-repeat url("../../images/sobrenosotros__img01.webp");
+    background-position: center center;
+    border-radius: 0 0 100px 100px;
+}
+    .aboutus__container h1{
+        font-size: 36px;
+        color: white;
+        text-shadow: 1px 1px 5px #000;
+    }
+
+.about__container{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-around;
+    text-align: justify;
+    gap: 100px;
+}
+.about{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+    .about img{
+        border-radius: 50%;
+        height: 100%;
+        width: 400px;
+    }
+    .about h1{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .about div{
+        flex: 0 0 400px
+    }
+
+
+
+
+/* VALORES */
+
+
+.valores__container{
+    height: 100vh;
+    padding-top: 100px;
+    display: flex;
+    flex-flow: column nowrap;
+    background: linear-gradient(#fff 50%, #000 50%);
+
+}
+    .valores__container .text{
+        text-align: center;
+        font-size: 20px;
+    }
+    .valores__container .body{
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        text-shadow: 1px 2px 4px #fff;
+    }
+    .valores__container .body img{
+        height: 100%;
+        width: 400px;
+    }
+
+    /* MISION VISION */
+
+    .misionvision__container{
+        padding: 25px;
+        padding-top: 100px;
+        height: 100vh;
+        display: flex;
+        flex-flow: row nowrap;
+        text-align: justify;
+    }
+        .mision div,
+        .vision div{
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 1.5px;
+        }
+        .mision{
+            border-top: 2px dotted #000;
+
+        }
+        .vision{
+            align-self: flex-end;
+            border-top: 2px dotted #000;
+        }
+        .vision div{
+            flex-flow: column nowrap;
+        }
+
+        .misionvision__container img{
+            height: 100%;
+            width: 400px;
+        }
