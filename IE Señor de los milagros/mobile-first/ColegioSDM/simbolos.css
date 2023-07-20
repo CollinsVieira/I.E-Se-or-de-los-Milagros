@@ -16,7 +16,7 @@ body{
     .simbolos__container{
         display: flex;
         flex-flow: column nowrap;
-        margin-top: 20px;
+        padding-top: 20px;
     }
     .simbolos__container div:nth-child(1){
         display: flex;

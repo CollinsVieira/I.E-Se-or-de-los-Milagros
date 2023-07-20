@@ -37,19 +37,19 @@ body{
     .section__container div div:nth-child(1){
         margin-bottom: 20px;
         color: white;
-        font-size: 38px;
+        font-size: 1.5vw;
         text-align: center;
         text-shadow: 5px 5px 5px black ;
     }
     .section__container div div:nth-child(2){
         display: flex;
         flex-flow: row nowrap;
-        font-size: 22px;
+        font-size: 1.5vw;
         align-items: center;
     }
     .section__container div div:nth-child(2) img{
-        width: 220px;
-        height: 250px;
+        width: 20vw;
+        height: 20vw;
     }
     
 .como__somos__container{
@@ -95,4 +95,35 @@ body{
     color: #D9D5C9;
     text-shadow: 0 0 8px black;
     font-size: 26px;
+}
+
+
+@media(max-width: 800px){
+    .section__container div div:nth-child(2) img{
+        display: none;
+    }
+    .quienes__somos div:nth-child(1) h1{
+        font-size: 18px;
+    }
+    .quienes__somos div:nth-child(2) p{
+        font-size: 14px;
+    }
+    .quienes__somos{
+        height: fit-content;
+    }
+
+    .valores__container{
+        width: 100%;
+        padding: 15px;
+    }
+    .valores__container div div{
+        flex-flow: column nowrap;
+        margin-top: 25px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+
+    }
+    .valores__container div div img{
+        border-radius: 50%;
+    }
 }

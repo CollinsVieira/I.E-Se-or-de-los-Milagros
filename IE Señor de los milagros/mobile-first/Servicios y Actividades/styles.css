@@ -98,3 +98,10 @@ body{
         background-size: cover;
         background-position: center;
     }
+
+@media (max-width: 380px){
+    .section__2{
+        flex-flow: row wrap;
+        height: fit-content;
+    }
+}
