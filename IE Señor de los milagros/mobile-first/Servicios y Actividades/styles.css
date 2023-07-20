@@ -99,7 +99,7 @@ body{
         background-position: center;
     }
 
-@media (max-width: 380px){
+@media (max-width: 450px){
     .section__2{
         flex-flow: row wrap;
         height: fit-content;
