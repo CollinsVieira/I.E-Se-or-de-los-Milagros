@@ -115,3 +115,34 @@
             height: 100%;
             width: 400px;
         }
+
+
+@media (max-width: 800px){
+    .aboutus__container{
+        background-size: cover;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .about__container{
+    }
+    .about{
+        flex-flow:  column nowrap;
+        height: fit-content;
+    }
+
+    .about div{
+        flex: 0 0 0;
+        font-size: 14px;
+    }
+    .about:nth-child(1){
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width: 500px){
+    .about h1{
+        margin-bottom: 0;
+    }
+
+    
+}
