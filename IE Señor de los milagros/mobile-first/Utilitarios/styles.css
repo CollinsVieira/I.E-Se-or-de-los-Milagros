@@ -81,7 +81,7 @@
         width: 400px;
     }
 
-    /* MISION VISION */
+    /* MISION y VISION */
 
     .misionvision__container{
         padding: 25px;
@@ -158,6 +158,23 @@
     }
     .valores__container .body div img{
         width: 80%;
+    }
+
+
+    /* MISION Y VISION */
+    .misionvision__container{
+        flex-flow: column nowrap;
+        height: max-content;
+    }
+    .mision div,
+    .vision div{
+        font-size: 14px;
+    }
+    .vision{
+        align-self: center;
+    }
+    .vision h1{
+        text-align: center;
     }
 }
 @media (max-width: 500px){
