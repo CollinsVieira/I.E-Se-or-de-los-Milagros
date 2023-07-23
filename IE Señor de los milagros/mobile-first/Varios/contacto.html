@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../../../styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oleo+Script&family=Open+Sans:wght@600&family=Quattrocento&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../../images/logoIE.webp">
-    <title>NOTICIAS</title>
+    <title>CONTACTO</title>
 </head>
 
 <body>
@@ -112,8 +112,26 @@
     </header>
     
     <div class="contacto__container">
-        <div id="map">
-            AIzaSyCBlo5Lm1upSFQ9NpruNvY2QbT0Mkwta_E
+        <div class="mapa__container">
+            <div id="map"></div>
+        </div>
+        <div class="form__container">
+            <h1>¡Contáctanos!</h1>
+            <form action="procesar_formulario.php" method="post">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+          
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+          
+              <label for="asunto">Asunto:</label>
+              <input type="text" id="asunto" name="asunto" required>
+          
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+          
+              <button type="submit">Enviar</button>
+            </form>
         </div>
 
     </div>
@@ -138,6 +156,9 @@
         </div>
     </footer>
     <script src="../../../app.js"></script>
-      
+    <!-- Reemplaza "TU_CLAVE_DE_API" con tu clave de API de Google Maps -->
+
 </body>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBlo5Lm1upSFQ9NpruNvY2QbT0Mkwta_E&callback=initMap" async defer></script>
+<script src="mapa.js"></script>
 </html>
