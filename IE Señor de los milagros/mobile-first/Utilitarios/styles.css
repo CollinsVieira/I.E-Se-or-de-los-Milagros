@@ -118,13 +118,12 @@
 
 
 @media (max-width: 800px){
+    /* NOSOTROS */
     .aboutus__container{
         background-size: cover;
         height: 100vh;
         justify-content: center;
         align-items: center;
-    }
-    .about__container{
     }
     .about{
         flex-flow:  column nowrap;
@@ -138,11 +137,34 @@
     .about:nth-child(1){
         flex-direction: column-reverse;
     }
+
+
+
+    /* VALORES */
+    .valores__container{
+        height: fit-content;
+    }
+    .valores__container{
+    }
+    .valores__container .text{
+        font-size: 1.5vw;
+    }
+    .valores__container .body{
+        flex-flow:  column nowrap;
+    }
+    .valores__container .body div{
+        margin-bottom: 25px;
+    }
+    .valores__container .body div img{
+        width: 80%;
+    }
 }
 @media (max-width: 500px){
     .about h1{
         margin-bottom: 0;
     }
-
+    .valores__container .text{
+        font-size: 3vw;
+    }
     
 }
