@@ -56,6 +56,12 @@ a{
     --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
     --transform: rotate(-90deg);
 }
+    .menu__link__inicio{
+        margin-left: 80px;
+    }
+    a.menu__link[href="../Varios/LMS.html"] {
+        display: none;
+      }
 
 .menu__item:hover{
     --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
