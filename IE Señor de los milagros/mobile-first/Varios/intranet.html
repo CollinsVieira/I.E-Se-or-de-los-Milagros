@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/mobile-first/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oleo+Script&family=Open+Sans:wght@600&family=Quattrocento&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../../images/logoIE.webp">
     <title>INTRANET</title>
 </head>
 <body>
-    
+    <section class="intranet__container">
+
+        <div class="login__form__container">
+            <img src="../../images/logoIE.webp" alt="logoIE">
+            <div class="login-form">
+                <div class="form-group">
+                  <input type="text" id="username" name="username" required placeholder="Usuario">
+                </div>
+                <div class="form-group">
+                  <input type="password" id="password" name="password" required placeholder="Contraseña">
+                  <span class="show-password-icon" onclick="verPw()">
+                    <img src="../../icons/eye-password-show-svgrepo-com.svg" alt="eye-password-show-svgrepo-com">
+                  </span>
+                </div>
+                <button class="btn_login" type="submit">Iniciar sesión</button>
+              </div>
+        </div>
+        <div class="img__container">
+          <div>
+            <img src="../../images/sieweb.webp" alt="sieweb">
+          </div>
+        </div>
+    </section>
 </body>
+<script src="app.js"></script>
+
 </html>

@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /* NOTICIAS */
 .news__container{
     padding: 50px;
@@ -45,6 +50,81 @@
         }
 
 /* INTRANET */
+.intranet__container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+    .login__form__container{
+        flex: 0 0 50%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .login-form {
+            width: 60%;
+            max-width: 400px;
+        }
+
+            .form-group {
+                position: relative;
+            }
+
+                .form-group label {
+                    display: block;
+                    margin-bottom: 5px;
+                }
+
+                .form-group input {
+                    width: 100%;
+                    padding: 10px;
+                    border: 1px solid #713091;
+                    border-radius: 3px;
+                }
+                .form-group input::placeholder{
+                    color: #713091;
+                }
+
+                .show-password-icon {
+                    position: absolute;
+                    top: 50%;
+                    right: 10px;
+                    transform: translateY(-50%);
+                    cursor: pointer;
+                }
+                .btn_login{
+                    background-color: #713091;
+                    color: white;
+                    padding: 10px 15px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+
+                }
+
+    .img__container{
+        background: no-repeat url("../../images/servicios__img01.webp");
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        flex: 0 0 50%;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 50px;
+    }
+        .img__container div{
+            clip-path: path("M 87.0536 249.994 C 100.435 253.62 115.649 256 130.58 256 C 145.512 256 159.88 253.96 173.121 250.334 C 173.403 250.22 173.685 250.22 173.966 250.107 C 223.691 235.602 260.316 197.298 261.02 152.535 L 261.02 0 L 0 0 L 0 152.422 C 0.704317 197.524 36.7653 235.828 87.0536 249.994");
+            background: rgb(255, 255, 255);
+            width: 261.02px;
+            height: 256px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 /* ADMISION */
 /* CONTACTO */
 .contacto__container{
@@ -56,8 +136,6 @@
     justify-content: space-around;
     gap: 50px;
 }
-    .mapa__container{
-    }
     #map {
         height: 500px;
         width: 800px;
@@ -70,7 +148,7 @@
     .form__container h1{
         text-align: center;
     }
-        form {
+        .form__container form {
             max-width: 400px;
             margin: 0 auto;
         }
@@ -82,7 +160,7 @@
             margin-bottom: 10px;
         }
         
-        input,
+        .form__container input,
         textarea {
             width: 100%;
             padding: 8px;
@@ -90,7 +168,7 @@
             border-radius: 4px;
         }
         
-        button {
+        .form__container button {
             background-color: #4CAF50;
             color: white;
             padding: 10px 15px;
@@ -140,14 +218,13 @@
         height: max-content;
     }
     #map{
-        /* width: 90%; */
         max-width: 400px;
 
     }
     .form__container{
         max-width: 400px;
     }
-    }
+
 
 }
 @media (max-width:400px){
@@ -159,4 +236,26 @@
             width: 120px;
             height: 90%;
         }
+
+
+}
+@media (max-width: 550px) {
+    /* INTRANET */
+    .intranet__container{
+        width: 100%;
+        background-color: #e5e5f7;
+        opacity: 1;
+        background: radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent) 10px 10px, linear-gradient(#713091 0.8px, transparent 0.8px) 0 -0.4px, linear-gradient(90deg, #713091 0.8px, #e5e5f7 0.8px) -0.4px 0;
+        background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;
+    }
+    .login__form__container{
+        width: 90%;
+    }
+    .login__form__container .btn_login{
+        width: 100%;
+    }
+
+    .img__container{
+        display: none;
+    }
 }
