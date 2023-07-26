@@ -62,9 +62,6 @@ a{
     a.menu__link[href="../Varios/LMS.html"] {
         display: none;
       }
-      a.menu__link[href="IE Señor de los milagros/mobile-first/Varios/LMS.html"] {
-        display: none;
-      }
 
 .menu__item:hover{
     --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
