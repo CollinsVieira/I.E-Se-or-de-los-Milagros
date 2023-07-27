@@ -185,6 +185,10 @@
         color: white;
         text-shadow: 1px 1px 10px #000;
     }
+    .card__body img{
+        width: 100px;
+        height: 100px;
+    }
     .card__body__front{
         background-color: #222344;
         
@@ -196,13 +200,13 @@
         background-color: #222344;
     }
     .card:nth-child(2) .card__inner .card__body__front{
-        background: no-repeat url("../../images/admision__img03.webp");
+        background: no-repeat url("../../images/admision__img03-2.webp");
         background-position: center;
         background-position-y: top;
         background-color: #222344;
     }
     .card:nth-child(3) .card__inner .card__body__front{
-        background: no-repeat url("../../images/admision__img02.webp");
+        background: no-repeat url("../../images/admision__img04.webp");
         background-position: center;
         background-position-y: top;
         background-color: #222344;
@@ -327,6 +331,21 @@
     }
     .form__container{
         max-width: 400px;
+    }
+
+    /* ADMIISION */
+    .cards{
+        flex-flow: column wrap;
+    }
+        .card{
+            width: 90%;
+            max-width: 300px;
+        }
+    .xd{
+        background-size: cover;
+    }
+    .titulo{
+        font-size: 2.5vw;
     }
 
 
